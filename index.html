@@ -1,42 +1,35 @@
-<html lang=""><head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta property="og:title" content=" Hugo Themes">
-    <meta property="og:site_name" content="Hugo Themes">
-    <meta property="og:url" content="https://themes.gohugo.io//theme/air/">
-    <meta property="og:type" content="website">
-    
-  <title>
-     Hugo Themes
-  </title>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="Quantifish Limited">
+  <meta author="Darcy Webber">
+  <meta name="keywords" content="research, marine, fisheries, sustainability, stock assessment, data science, resource management">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta property="og:title" content="Quantifish Limited">
+  <meta property="og:site_name" content="Quantifish Limited">
+  <meta property="og:url" content="https://quantifish.github.io/">
+  <meta property="og:type" content="website">
+  <meta name="HandheldFriendly" content="True">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <meta name="description" content="Make the Web Fun Again">
-    <meta name="HandheldFriendly" content="True">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="css/screen.css">
+  <link rel="canonical" href="https://themes.gohugo.io//theme/air/">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+  <link rel="shortcut icon" href="https://themes.gohugo.io//theme/air/images/favicon.ico">
+  <link rel="apple-touch-icon" href="https://themes.gohugo.io//theme/air/images/apple-touch-icon.png">
 
-    <link rel="shortcut icon" href="https://themes.gohugo.io//theme/air/images/favicon.ico">
-    <link rel="apple-touch-icon" href="https://themes.gohugo.io//theme/air/images/apple-touch-icon.png">
-    <link rel="stylesheet" type="text/css" href="css/screen.css">
-    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Merriweather:300,700,700italic,300italic|Open+Sans:700,400|Inconsolata">
-    <link href="https://themes.gohugo.io//theme/air/index.xml" rel="alternate" type="application/rss+xml" title="Hugo Themes">
+  <title>Quantifish Limited</title>
+</head>
 
-    <meta name="generator" content="Hugo 0.55.6">
 
-    <link rel="canonical" href="https://themes.gohugo.io//theme/air/">
-
-     
-<style id="fit-vids-style">.fluid-width-video-wrapper{width:100%;position:relative;padding:0;}.fluid-width-video-wrapper iframe,.fluid-width-video-wrapper object,.fluid-width-video-wrapper embed {position:absolute;top:0;left:0;width:100%;height:100%;}</style></head>
 <body class="nav-closed">
 <div id="particles-js"><canvas class="particles-js-canvas-el" width="1150" height="944" style="width: 100%; height: 100%;"></canvas></div>
-  
-
-
- <div class="site-wrapper">
+<div class="site-wrapper">
 
 
 <header class="main-header " style="background-image: url(https://themes.gohugo.io//theme/air/../../img/desk.jpg)">
   <nav class="main-nav overlay clearfix">
-    <a class="blog-logo" href="https://themes.gohugo.io//theme/air/"><img src="https://themes.gohugo.io//theme/air/../../img/hugoSM.png" alt="Quantifish Logo"></a>
+    <a class="blog-logo" href="#content"><img src="images/Joanne Webber P8070a.png" alt="Quantifish Logo"></a>
   </nav>
   <div class="vertical">
     <div class="main-header-content inner">
@@ -45,181 +38,56 @@
       </h1>
     </div>
   </div>
-  <a class="scroll-down icon-arrow-left" href="#content"><span class="hidden">Scroll Down</span></a>
+  <a class="scroll-down" href="#content"><i class="fas fa-angle-down"></i></a>
 </header>
+
+
+
 
 <main id="content" class="content" role="main">
 
-    
-
-    <div class="extra-pagination inner">
-        <nav class="pagination" role="navigation">
-  
-      <a class="newer-posts" href="https://themes.gohugo.io//theme/air/">← Newer Posts</a>
-  
-  <span class="page-number">Page 2 of 2</span>
-  
-</nav>
-
-    </div>
-
-    
-        
-<article class="post post">
-    <header class="post-header">
-        <h2 class="post-title"><a href="https://themes.gohugo.io//theme/air/post/math-typesetting/">Math Typesetting</a></h2>
-    </header>
-    <section class="post-excerpt">
-      <p>
-          </p><section class="post-content">
-            <p>Mathematical notation in a Hugo project can be enabled by using third party JavaScript libraries.</p>
-
-<p>In this example we will be using <a href="https://katex.org/">KaTeX</a></p>
-
-<ul>
-<li>Create a partial under <code>/layouts/partials/math.html</code></li>
-<li>Within this partial reference the <a href="https://katex.org/docs/autorender.html">Auto-render Extension</a> or host these scripts locally.</li>
-<li>Include the partial in your templates like so:<br></li>
-</ul>
-
-<pre><code>{{ if or .Params.math .Site.Params.math }}
-{{ partial "math.html" . }}
-{{ end }}
-</code></pre>
-
-<ul>
-<li>To enable KaTex globally set the parameter <code>math</code> to <code>true</code> in a project's configuration</li>
-<li>To enable KaTex on a per page basis include the parameter <code>math: true</code> in content files.</li>
-</ul>
-
-<p><strong>Note:</strong> Use the online reference of <a href="https://katex.org/docs/supported.html">Supported TeX Functions</a>
 
 
-<!-- KaTeX -->
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.10.1/dist/katex.min.css" integrity="sha384-dbVIfZGuN1Yq7/1Ocstc1lUEm+AT+/rCkibIcC/OmWo5f0EA48Vf8CytHzGrSwbQ" crossorigin="anonymous">
-<script defer="" src="https://cdn.jsdelivr.net/npm/katex@0.10.1/dist/katex.min.js" integrity="sha384-2BKqo+exmr9su6dir+qCw08N2ZKRucY4PrGQPPWU1A7FtlCGjmEGFqXCv5nyM5Ij" crossorigin="anonymous"></script>
-<script defer="" src="https://cdn.jsdelivr.net/npm/katex@0.10.1/dist/contrib/auto-render.min.js" integrity="sha384-kWPLUVMOks5AQFrykwIup5lo0m3iMkkHrD0uJ4H5cjeGihAutqP0yW0J6dpFiVkI" crossorigin="anonymous" onload="renderMathInElement(document.body);"></script>
-
-</p>
-
-<h3 id="examples">Examples</h3>
-
-<p>Inline math: <span class="math"><span><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>φ</mi><mo>=</mo><mfrac><mrow><mn>1</mn><mo>+</mo><msqrt><mn>5</mn></msqrt></mrow><mn>2</mn></mfrac><mo>=</mo><mn>1.6180339887</mn><mo>…</mo></mrow><annotation encoding="application/x-tex"> \varphi = \dfrac{1+\sqrt5}{2}= 1.6180339887… </annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height: 0.625em; vertical-align: -0.19444em;"></span><span class="mord mathdefault">φ</span><span class="mspace" style="margin-right: 0.277778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right: 0.277778em;"></span></span><span class="base"><span class="strut" style="height: 2.27022em; vertical-align: -0.686em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height: 1.58422em;"><span class="" style="top: -2.314em;"><span class="pstrut" style="height: 3em;"></span><span class="mord"><span class="mord">2</span></span></span><span class="" style="top: -3.23em;"><span class="pstrut" style="height: 3em;"></span><span class="frac-line" style="border-bottom-width: 0.04em;"></span></span><span class="" style="top: -3.677em;"><span class="pstrut" style="height: 3em;"></span><span class="mord"><span class="mord">1</span><span class="mspace" style="margin-right: 0.222222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right: 0.222222em;"></span><span class="mord sqrt"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height: 0.90722em;"><span class="svg-align" style="top: -3em;"><span class="pstrut" style="height: 3em;"></span><span class="mord" style="padding-left: 0.833em;">5</span></span><span class="" style="top: -2.86722em;"><span class="pstrut" style="height: 3em;"></span><span class="hide-tail" style="min-width: 0.853em; height: 1.08em;"><svg width="400em" height="1.08em" viewBox="0 0 400000 1080" preserveAspectRatio="xMinYMin slice"><path d="M95,702c-2.7,0,-7.17,-2.7,-13.5,-8c-5.8,-5.3,-9.5,
--10,-9.5,-14c0,-2,0.3,-3.3,1,-4c1.3,-2.7,23.83,-20.7,67.5,-54c44.2,-33.3,65.8,
--50.3,66.5,-51c1.3,-1.3,3,-2,5,-2c4.7,0,8.7,3.3,12,10s173,378,173,378c0.7,0,
-35.3,-71,104,-213c68.7,-142,137.5,-285,206.5,-429c69,-144,104.5,-217.7,106.5,
--221c5.3,-9.3,12,-14,20,-14H400000v40H845.2724s-225.272,467,-225.272,467
-s-235,486,-235,486c-2.7,4.7,-9,7,-19,7c-6,0,-10,-1,-12,-3s-194,-422,-194,-422
-s-65,47,-65,47z M834 80H400000v40H845z"></path></svg></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height: 0.13278em;"><span class=""></span></span></span></span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height: 0.686em;"><span class=""></span></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mspace" style="margin-right: 0.277778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right: 0.277778em;"></span></span><span class="base"><span class="strut" style="height: 0.64444em; vertical-align: 0em;"></span><span class="mord">1</span><span class="mord">.</span><span class="mord">6</span><span class="mord">1</span><span class="mord">8</span><span class="mord">0</span><span class="mord">3</span><span class="mord">3</span><span class="mord">9</span><span class="mord">8</span><span class="mord">8</span><span class="mord">7</span><span class="mspace" style="margin-right: 0.166667em;"></span><span class="minner">…</span></span></span></span></span></span></p>
-
-<p>Block math:</p>
-
-<p><span class="math"><span><span class="katex-display"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>φ</mi><mo>=</mo><mn>1</mn><mo>+</mo><mfrac><mn>1</mn><mrow><mn>1</mn><mo>+</mo><mfrac><mn>1</mn><mrow><mn>1</mn><mo>+</mo><mfrac><mn>1</mn><mrow><mn>1</mn><mo>+</mo><mo>⋯</mo></mrow></mfrac></mrow></mfrac></mrow></mfrac></mrow><annotation encoding="application/x-tex">
- \varphi = 1+\frac{1} {1+\frac{1} {1+\frac{1} {1+\cdots} } } 
-</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height: 0.625em; vertical-align: -0.19444em;"></span><span class="mord mathdefault">φ</span><span class="mspace" style="margin-right: 0.277778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right: 0.277778em;"></span></span><span class="base"><span class="strut" style="height: 0.72777em; vertical-align: -0.08333em;"></span><span class="mord">1</span><span class="mspace" style="margin-right: 0.222222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right: 0.222222em;"></span></span><span class="base"><span class="strut" style="height: 2.74003em; vertical-align: -1.41859em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height: 1.32144em;"><span class="" style="top: -2.26489em;"><span class="pstrut" style="height: 3em;"></span><span class="mord"><span class="mord">1</span><span class="mspace" style="margin-right: 0.222222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right: 0.222222em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height: 0.845108em;"><span class="" style="top: -2.59898em;"><span class="pstrut" style="height: 3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">1</span><span class="mbin mtight">+</span><span class="mord mtight"><span class="mopen nulldelimiter sizing reset-size3 size6"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height: 0.844314em;"><span class="" style="top: -2.656em;"><span class="pstrut" style="height: 3em;"></span><span class="sizing reset-size3 size1 mtight"><span class="mord mtight"><span class="mord mtight">1</span><span class="mbin mtight">+</span><span class="minner mtight">⋯</span></span></span></span><span class="" style="top: -3.2255em;"><span class="pstrut" style="height: 3em;"></span><span class="frac-line mtight" style="border-bottom-width: 0.049em;"></span></span><span class="" style="top: -3.384em;"><span class="pstrut" style="height: 3em;"></span><span class="sizing reset-size3 size1 mtight"><span class="mord mtight"><span class="mord mtight">1</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height: 0.403521em;"><span class=""></span></span></span></span></span><span class="mclose nulldelimiter sizing reset-size3 size6"></span></span></span></span></span><span class="" style="top: -3.23em;"><span class="pstrut" style="height: 3em;"></span><span class="frac-line" style="border-bottom-width: 0.04em;"></span></span><span class="" style="top: -3.394em;"><span class="pstrut" style="height: 3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">1</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height: 0.683485em;"><span class=""></span></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span><span class="" style="top: -3.23em;"><span class="pstrut" style="height: 3em;"></span><span class="frac-line" style="border-bottom-width: 0.04em;"></span></span><span class="" style="top: -3.677em;"><span class="pstrut" style="height: 3em;"></span><span class="mord"><span class="mord">1</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height: 1.41859em;"><span class=""></span></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span></span></span></span></span></p>
-          </section>
-      <p></p>
-      
-    </section>
-    <footer class="post-meta">
-        
-            <img class="author-thumb" src="https://themes.gohugo.io//theme/air/../../img/hugoSM.png" alt="Author image" nopin="nopin">
-        
-        
-        
-            
-        
-        
-        <time class="post-date" datetime="2019-03-08T00:00:00Z">
-            8 Mar 2019
-        </time>
-    </footer>
-</article>
-
-    
-        
-<article class="post post">
-    <header class="post-header">
-        <h2 class="post-title"><a href="https://themes.gohugo.io//theme/air/post/emoji-support/">Emoji Support</a></h2>
-    </header>
-    <section class="post-excerpt">
-      <p>
-          </p><section class="post-content">
-            <p>Emoji can be enabled in a Hugo project in a number of ways.</p>
-
-<p>The <a href="https://gohugo.io/functions/emojify/"><code>emojify</code></a> function can be called directly in templates or <a href="https://gohugo.io/templates/shortcode-templates/#inline-shortcodes">Inline Shortcodes</a>.</p>
-
-<p>To enable emoji globally, set <code>enableEmoji</code> to <code>true</code> in your site’s <a href="https://gohugo.io/getting-started/configuration/">configuration</a> and then you can type emoji shorthand codes directly in content files; e.g.</p>
-
-<p></p><p><span class="nowrap"><span class="emojify">🙈</span> <code>:see_no_evil:</code></span>  <span class="nowrap"><span class="emojify">🙉</span> <code>:hear_no_evil:</code></span>  <span class="nowrap"><span class="emojify">🙊</span> <code>:speak_no_evil:</code></span></p>
-<br><p></p>
-
-<p>The <a href="http://www.emoji-cheat-sheet.com/">Emoji cheat sheet</a> is a useful reference for emoji shorthand codes.</p>
-
-<hr>
-
-<p><strong>N.B.</strong> The above steps enable Unicode Standard emoji characters and sequences in Hugo, however the rendering of these glyphs depends on the browser and the platform. To style the emoji you can either use a third party emoji font or a font stack; e.g.</p>
-
-<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">.emoji {
-font-family: Apple Color Emoji,Segoe UI Emoji,NotoColorEmoji,Segoe UI Symbol,Android Emoji,EmojiSymbols;
-}</code></pre></div>
+<section class="site-purpose">
+  <header class="purpose-header">
+    <img src="images/s - Lato - center - orange.png" width="1200">
+    <p>Quantifish Limited provides state of the art research in quantitative fisheries science. Services provided range from quick and simple data analyses through to stock assessment, stock assessment development and coding, software development, and user interface design and deployment. Small and very large projects alike are easily accommodated. Specialities include length-based assessment models (e.g. New Zealand rock lobster), risk assessment (e.g. the Hector's and Maui dolphin threat management plan).</p>
+  </header>
+</section>
 
 
-<style>
-.emojify {
-  font-family: Apple Color Emoji,Segoe UI Emoji,NotoColorEmoji,Segoe UI Symbol,Android Emoji,EmojiSymbols;
-  font-size: 2rem;
-  vertical-align: middle;
-}
-@media screen and (max-width:650px) {
-    .nowrap {
-  display: block;
-  margin: 25px 0;
-}
-}
-</style>
-          </section>
-      <p></p>
-      
-    </section>
-    <footer class="post-meta">
-        
-            <img class="author-thumb" src="https://themes.gohugo.io//theme/air/../../img/hugoSM.png" alt="Author image" nopin="nopin">
-        
-        
-        
-            
-        
-        on
-            
-                <a href="https://themes.gohugo.io//theme/air/tags/emoji/">#emoji</a>,
-            
-        
-        <time class="post-date" datetime="2019-03-05T00:00:00Z">
-            5 Mar 2019
-        </time>
-    </footer>
-</article>
+<section class="site-contact">
+  <header class="contact-header">
+    <h2 class="contact-title">
+      <a>Contact</a>
+    </h2>
+    <a>Get in touch at</a>
+    <a>darcy@quantifish.co.nz</a>
 
-    
+  <div class="card">
+  <img src="images/Joanne Webber P8070a.png" alt="John" style="width:100%">
+  <h1>John Doe</h1>
+  <p class="title">CEO & Founder, Example</p>
+  <p>Harvard University</p>
+  <a href="#"><i class="fab fa-github"></i></a> 
+  <a href="#"><i class="fa fa-twitter"></i></a> 
+  <a href="#"><i class="fa fa-linkedin"></i></a> 
+  <a href="#"><i class="fa fa-facebook"></i></a> 
+  <p><button>Contact</button></p>
+  </div>
 
-    <nav class="pagination" role="navigation">
-  
-      <a class="newer-posts" href="https://themes.gohugo.io//theme/air/">← Newer Posts</a>
-  
-  <span class="page-number">Page 2 of 2</span>
-  
-</nav>
+  </header>
+</section>
+
 
 
 </main>
 
-    <footer class="site-footer clearfix">
-        <section class="copyright"><a href="">Hugo Themes</a> Copyright (c) 2008 - 2014, Steve Francia; all rights reserved.</section>
-        
-        <section class="poweredby">Proudly generated by <a class="icon-hugo" href="https://gohugo.io">HUGO</a>, with <a class="icon-theme" href="https://github.com/syui/hugo-theme-air">hugo-theme-air</a> theme</section>
-        
-    </footer>
+  <footer class="site-footer clearfix">
+    <section class="copyright"><a href="">Hugo Themes</a> Copyright (c) 2008 - 2014, Steve Francia; all rights reserved.</section>
+    <section class="poweredby">Proudly generated by <a class="icon-hugo" href="https://gohugo.io">HUGO</a>, with <a class="icon-theme" href="https://github.com/syui/hugo-theme-air">hugo-theme-air</a> theme</section>
+  </footer>
+
     </div>
     <script type="text/javascript" src="https://themes.gohugo.io//theme/air/js/jquery.js"></script>
     <script type="text/javascript" src="https://themes.gohugo.io//theme/air/js/jquery.fitvids.js"></script>
@@ -227,7 +95,6 @@ font-family: Apple Color Emoji,Segoe UI Emoji,NotoColorEmoji,Segoe UI Symbol,And
     <script src="https://themes.gohugo.io//theme/air/js/particles.min.js"></script>
     <script src="https://themes.gohugo.io//theme/air/js/particles.js"></script>  
 
+</body>
 
-
-
-</body></html>
+</html>
