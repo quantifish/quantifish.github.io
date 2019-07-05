@@ -1,13 +1,3 @@
 # Quantifish Limited Website
 
-Website can be viewed at https://quantifish.github.io or http://www.quantifish.co.nz/.
-
-## Example of displaying htmlwidgets on a Github pages site
-
-```{r}
-# Source: http://www.htmlwidgets.org/showcase_plotly.html
-library(plotly)
-p <- ggplot(data = diamonds, aes(x = cut, fill = clarity)) +
-            geom_bar(position = "dodge")
-ggplotly(p)
-```
+The Quantifish Limited website can be viewed at https://quantifish.github.io or http://www.quantifish.co.nz/.
