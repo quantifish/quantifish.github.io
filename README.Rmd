@@ -1,3 +1,7 @@
+# Quantifish Limited Website
+
+Website can be viewed at https://quantifish.github.io or http://www.quantifish.co.nz/.
+
 ## Example of displaying htmlwidgets on a Github pages site
 
 ```{r}
