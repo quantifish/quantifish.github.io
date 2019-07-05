@@ -30,7 +30,7 @@ a {
     width: 300px;
     height: 615px;
     margin: 0 auto;
-    margin-top: 100px;
+    margin-top: 0px;
     background-color: white;
     -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     -moz-box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
@@ -134,8 +134,12 @@ button.contact {
     background-color: transparent;
     font-family: inherit;
     color: white;
+    background: rgba(0, 0, 0, 0.69);
+    /*
     background-color: #C7D0E1;
-    font-size:12px;
+    background-color: rgba(255,255,255,0.7);
+    */
+    font-size: 12px;
     text-transform: uppercase;
     -webkit-transition: all 0.3s ease-in-out;
     -moz-transition:    all 0.3s ease-in-out;
@@ -198,7 +202,7 @@ button.contact:focus {
     -moz-transition:    all 0.5s ease-in-out;
     -o-transition:      all 0.5s ease-in-out;
     -ms-transition:     all 0.5s ease-in-out;
-     transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
 }
 
 .email-form.active {
@@ -208,7 +212,7 @@ button.contact:focus {
     -moz-transition:    all 1s ease-in-out;
     -o-transition:      all 1s ease-in-out;
     -ms-transition:     all 1s ease-in-out;
-     transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
 }
 
 .email-form input {
@@ -784,7 +788,7 @@ button:hover, a:hover {
 
 .site-footer {
     position: relative;
-    margin: 8rem 0 0 0;
+    margin: 5rem 0 0 0;
     padding: 0.5rem 15px;
     border-top: #EBF2F6 1px solid;
     font-family: "Open Sans", sans-serif;
@@ -1184,9 +1188,9 @@ canvas {
   height: 100%;
   background-color: #2FA7DC;
   /*
-  background-image: url("../images/iss042e178671_lrg.jpg");
-  */
   background-image: url("../images/ocean-nature-fish-plants-lakes-algae-underwater-2400x1350-wallpaper.jpg");
+  */
+  background-image: url("../images/iss042e178671_lrg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50% 50%;
